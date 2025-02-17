@@ -10,7 +10,9 @@ int main(){
         printf("Equal");
     }
     else{
-        printf("Second")
+        printf("Second");
     }
+    return 0;
     }
+
     
