@@ -4,17 +4,24 @@ int main(){
     int c=0;
     scanf("%d",&a);
     for (b=1;b<=a;b++){
-        d=a/b;
+        d=a%b;
         if (d==0){
-            c+=1;
+            c++;
+        }
+    }
+        
             if (c==2){
                 printf("Prime");
             }
             else{
                 printf("Not Prime");
             }
-
-            }
-        }
+            
+            
+        
+        
+    
+        return 0;
     }
+    
     
