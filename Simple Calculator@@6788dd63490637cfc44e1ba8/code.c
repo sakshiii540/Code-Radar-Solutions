@@ -18,7 +18,15 @@ int main(){
 
     }
     else if (ch=='/'){
-        printf("%d",a/b);
+        if (b!=0){
+            printf("%d",a/b);
+            }
+        else{
+            printf("Error");
+    
+
+        }
+        
     }
     else{
         printf("Error");
