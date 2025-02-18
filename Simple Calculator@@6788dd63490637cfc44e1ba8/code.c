@@ -18,10 +18,10 @@ int main(){
 
     }
     else if (ch=="/"){
-        printf("%d",a/b)
+        printf("%d",a/b);
     }
     else{
-        printf("Error")
+        printf("Error");
     }
 
     }
