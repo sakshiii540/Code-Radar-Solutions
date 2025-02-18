@@ -3,7 +3,7 @@ int main(){
     int a,b,d;
     int c=0;
     scanf("%d",&a);
-    for (b=1,b<=a,b++){
+    for (b=1;b<=a;b++){
         d=a/b;
         if (d==0){
             c+=1;
@@ -12,8 +12,9 @@ int main(){
             }
             else{
                 printf("Not Prime");
+            }
 
             }
         }
-        
     }
+    
