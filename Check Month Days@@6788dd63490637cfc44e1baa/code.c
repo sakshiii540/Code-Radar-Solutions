@@ -10,5 +10,5 @@ int main(){
         printf("28");
         
     }
-    else{printf("30")}
+    else{printf("30")};
 }
