@@ -11,6 +11,6 @@ int main(){
         
     }
     else{
-        printf("30")
-        };
+        printf("30");
+        }
 }
