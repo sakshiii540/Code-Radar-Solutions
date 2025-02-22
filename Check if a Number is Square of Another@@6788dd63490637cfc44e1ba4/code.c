@@ -10,6 +10,6 @@ int main{
 
     }
     else{
-        print("No")
+        print("No");
     }
 }
