@@ -8,7 +8,7 @@ int main(){
         for (j='A';j<='Z';j++){
             printf("%d",j);
         }
-        printf(\n)
+        printf(\n);
 
     }
     
