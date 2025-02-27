@@ -2,11 +2,14 @@
 #include <stdio.h>
 int main(){
     int i,j,n;
-    int x=65;
+    int x;
     scanf("%d",&n);
     for (i=1;i<=n;i++){
         for (j=1;j<=i;j++){
-            printf("%c ",x);
+            for (x=64;x<=90;x++){
+                printf("%c ",x);
+            }
+            
         }
         printf("\n");
     }
