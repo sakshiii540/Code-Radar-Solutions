@@ -1,16 +1,17 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,j,count=0,n;
+    int i,j,l=1,n;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        for(j=i+count;j<=count+1;j++){
-            count++;
+        for(j=1;j<=i;j++){
+            printf("%d ",l);
+            l++;
             }
-            printf("%d ",j);
+            
             
         
-        printf("\n");
+    printf("\n");
     }
    
 
