@@ -6,9 +6,10 @@ int main(){
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
             k=j;
+            k=k+1;}
             printf("%d ",k);
             
-        }
+        
         printf("\n");
     }
    
