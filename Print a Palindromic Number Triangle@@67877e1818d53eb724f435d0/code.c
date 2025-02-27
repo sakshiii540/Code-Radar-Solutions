@@ -9,6 +9,11 @@ int main(){
         for(k=1;k<=i;k++){
             printf("%d",k);
         }
+        if (i>1){
+            for (x=1;x<=i-1;x++){
+                printf("%d",x);
+            }
+        }
         printf("\n");
     }
 
