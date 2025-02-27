@@ -10,9 +10,10 @@ int main(){
             printf("%d",k);
         }
         if (i>1){
-            for (x=1;x<=i-1;x++){
+            for (x=1;x<=n-i;x++){
                 printf("%d",x);
             }
+
         }
         printf("\n");
     }
