@@ -15,5 +15,15 @@ int main(){
     printf("\n");
 
 }
+    for(i=n+1;i<=n*2-1;i++){
+        for(j=1;j<=i;j++){
+            printf(" ");
+        }
+        for(k=1;k<=n ; k++){
+            printf("*");
+            }
+        }
+        printf("\n");
+    }
 
 }
