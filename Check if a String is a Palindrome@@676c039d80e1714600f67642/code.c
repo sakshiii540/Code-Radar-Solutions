@@ -15,12 +15,12 @@ int main() {
             count++;
              // If any character doesn't match
         }
+        }
         if (count==n/2){
             printf("Yes");
         }
         else{
             printf("No");
-        }
         }
     }
     
