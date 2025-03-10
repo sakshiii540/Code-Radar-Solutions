@@ -11,5 +11,8 @@ int main(){
        if (no[i]==no[n-i-1]){
         printf("Yes");
        }
+       else{
+        printf("No");
+       }
     }
 }
