@@ -9,7 +9,7 @@ int main(){
     printf("%d",i);
     for (j=1;j<=i;j++){
         n[j]=n[i-j+1];
-        printf("%c",n[j]);
     }
+    printf("%c",n[j]);
     
 }
