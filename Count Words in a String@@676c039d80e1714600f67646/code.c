@@ -7,7 +7,7 @@ int main(){
     scanf("%s",word);
     n=strlen(word);
     for(i=0;i<=n;i++){
-        if(word[i]=' '){
+        if(word[i]!=' '){
             j++;
         }
     }
