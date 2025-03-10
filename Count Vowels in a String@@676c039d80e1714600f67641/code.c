@@ -12,6 +12,7 @@ int main(){
             j++;
         }
     }
+    printf("%s",word[i]);
     printf("%d",j);
 
 }
