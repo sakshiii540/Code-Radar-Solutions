@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     int i,j;
-    char n[];
+    char n[100];
     scanf("%s",n);
     printf("%s",n);
     
