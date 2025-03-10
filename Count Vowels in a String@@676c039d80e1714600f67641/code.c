@@ -5,6 +5,7 @@
 int main(){
     int i,j,n;
     char word[100];
+    scanf("%s",word);
     n=strlen(word);
     printf("%d",n);
 }
