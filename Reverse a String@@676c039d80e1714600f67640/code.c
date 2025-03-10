@@ -7,5 +7,9 @@ int main(){
     scanf("%s",n);
     i=strlen(n);
     printf("%d",i);
+    for (j=1;j<=i;j++){
+        n[j]=j[i-j+1];
+        printf("%c",n[j]);
+    }
     
 }
