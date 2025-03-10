@@ -10,7 +10,7 @@ int main(){
     printf("%d",n);
     for (i=1;i<=n;i++){
         if (word[i]=='a' || word[i]=='e' || word[i]=='i' || word[i]=='o' || word[i]=='u'){
-            j++
+            j++;
         }
     }
     printf("%d",j);
