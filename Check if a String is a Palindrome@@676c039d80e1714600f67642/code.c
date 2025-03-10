@@ -11,13 +11,13 @@ int main() {
     
     // Check for palindrome
     for (i = 0; i < n / 2; i++) {
-        if (no[i] != no[n - i - 1]) {
-            printf("No\n"); // If any character doesn't match
-            return 0; // Exit immediately
+        if (no[i] == no[n - i - 1]) {
+            printf("Yes\n"); // If any character doesn't match
+        }
+        else {
+            printf("No");
         }
     }
     
-    printf("Yes\n"); // If all characters match
-    return 0;
 }
 
