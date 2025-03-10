@@ -7,7 +7,6 @@ int main(){
     char word[100];
     scanf("%s",word);
     n=strlen(word);
-    printf("%d",n);
     for (i=1;i<=n;i++){
         if (word[i]=='a' || word[i]=='e' || word[i]=='i' || word[i]=='o' || word[i]=='u'){
             j++;
