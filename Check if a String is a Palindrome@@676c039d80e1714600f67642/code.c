@@ -9,10 +9,12 @@ int main(){
     n=strlen(no);
     for (i=0;i<=n/2;i++){
        if (no[i]==no[n-i-1]){
-        printf("Yes");
+       continue;
        }
+        printf("Yes");
        else{
         printf("No");
        }
     }
+    
 }
