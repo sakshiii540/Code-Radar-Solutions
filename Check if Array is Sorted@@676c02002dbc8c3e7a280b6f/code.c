@@ -13,7 +13,7 @@ int main(){
             l++;
         }
      }
-        if (l==n){
+        if (l==n-1){
             printf("Sorted");
         }
         else{
