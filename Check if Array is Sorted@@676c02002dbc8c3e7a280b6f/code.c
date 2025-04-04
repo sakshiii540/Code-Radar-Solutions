@@ -12,6 +12,7 @@ int main(){
         if (arr[i]<=arr[i+1]){
             l++;
         }
+     }
         if (l==n){
             printf("Sorted");
         }
@@ -20,5 +21,5 @@ int main(){
         }
 
 
-}
+
 }
