@@ -8,6 +8,7 @@ int main(){
     }
     scanf("%d",&k);
     j=n-k;
+    printf("%d",j);
     for (i=j;i<n;i++){
         printf("%d\n",arr[i]);
     }
