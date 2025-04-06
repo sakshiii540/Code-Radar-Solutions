@@ -15,6 +15,11 @@ int main(){
         
         }
         printf("%d",m);
+        for (i=1;i<n;i++){
+            if (arr[0]!=arr[i]){
+                printf("%d",arr[i]);
+            }
+        }
         
     }
 
