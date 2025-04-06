@@ -11,6 +11,9 @@ int main(){
         if (arr[i]>arr[i+1]){
             k=arr[i];
         }
+        else{
+            k=arr[i+1];
+        }
         printf("%d",k);
     }
 }
