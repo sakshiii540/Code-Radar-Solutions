@@ -9,9 +9,12 @@ int main(){
     }
     k=arr[0];
     for (i=0;i<n;i++){
+        
         if (arr[i]>k){
-            j=k;
+            k=arr[i];
         }
+        }
+        printf("%d",k);
     
 }
 printf("%d",j);
