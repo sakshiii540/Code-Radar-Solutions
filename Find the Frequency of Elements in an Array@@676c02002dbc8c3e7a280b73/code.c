@@ -11,15 +11,16 @@ int main(){
     for (i=0;i<n;i++){
         if (arr[0]==arr[i+1]){
             m++;
+            
+        }
+        else{
+            k=arr[i+1];
         }
         
         }
         printf("%d",m);
-        for (i=1;i<n;i++){
-            if (arr[0]!=arr[i]){
-                printf("\n%d",arr[i]);
-            }
-        }
+        printf("\n%d",k);
+       
         
     }
 
