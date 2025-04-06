@@ -19,7 +19,7 @@ int main(){
         
         }
         printf("%d",m);
-        printf("\n%d",k);
+        printf("\n%d ",k);
        
         
     }
