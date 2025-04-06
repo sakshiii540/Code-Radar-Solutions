@@ -15,6 +15,7 @@ int main(){
         }
         else{
             k=arr[i+1];
+            break;
         }
         
         }
