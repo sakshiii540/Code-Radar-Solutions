@@ -17,5 +17,3 @@ int main(){
         printf("%d",k);
     
 }
-printf("%d",j);
-}
