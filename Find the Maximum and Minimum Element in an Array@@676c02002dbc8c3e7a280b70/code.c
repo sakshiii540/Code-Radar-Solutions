@@ -21,7 +21,7 @@ int main(){
             l=arr[i];
         }
     }
-        printf("%d",l);
+        printf("%d ",l);
         printf("%d",k);
     
 
