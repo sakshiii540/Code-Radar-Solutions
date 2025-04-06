@@ -12,6 +12,7 @@ int main(){
     for (i=0;i<n;i++){
         if (arr[i]==k){
             printf("%d",i);
+            return 0;
         }
         
     }
