@@ -20,7 +20,8 @@ int main(){
         if (arr[i]<l){
             l=arr[i];
         }
-        
-        printf("%d",k);
         printf("%d",l);
+        printf("%d",k);
+       
+}
 }
