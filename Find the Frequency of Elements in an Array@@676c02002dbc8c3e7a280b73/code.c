@@ -19,6 +19,7 @@ int main(){
             
 
         }
+        for (i=0;i<n;i++){
         if (arr[i+1]==arr[i+2]){
                 l++;
             }
