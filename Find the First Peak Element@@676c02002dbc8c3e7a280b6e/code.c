@@ -18,7 +18,7 @@ int main() {
     // Check first element
     if (arr[0] > arr[1]) {
         printf("%d", arr[0]);
-        return 0;
+        
     }
 
     // Check middle elements
@@ -39,3 +39,4 @@ int main() {
     printf("-1");
     return 0;
 }
+
