@@ -16,11 +16,12 @@ int main(){
         else{
             k=arr[i+1];
             break;
-            if (arr[i+1]==arr[i+2]){
-                l++;
-            }
+            
 
         }
+        if (arr[i+1]==arr[i+2]){
+                l++;
+            }
         
         }
         printf("%d",m);
