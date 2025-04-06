@@ -13,10 +13,11 @@ int main(){
             else{
             m++;
             }
-            printf("%d ",l);
-            printf("%d",m);
-
+          
         }
 
 }
+  printf("%d ",l);
+            printf("%d",m);
+
 }
