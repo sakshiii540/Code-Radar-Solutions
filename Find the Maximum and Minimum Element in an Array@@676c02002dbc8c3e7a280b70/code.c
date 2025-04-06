@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,j,k,n;
+    int i,j,k,n,min;
     scanf("%d",&n);
     int arr[n];
     for (i=0;i<n;i++){
@@ -14,6 +14,13 @@ int main(){
             k=arr[i];
         }
         }
+    l=arr[0];
+    for (i=0;i<n;i++){
+        
+        if (arr[i]<l){
+            l=arr[i];
+        }
+        
         printf("%d",k);
-    
+        printf("%d",l);
 }
