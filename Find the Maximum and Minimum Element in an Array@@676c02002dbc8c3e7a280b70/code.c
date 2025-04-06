@@ -7,7 +7,7 @@ int main(){
     for (i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    k=0;
+    k=arr[i];
     for (i=0;i<n;i++){
         if (arr[i]>k){
             j=k;
