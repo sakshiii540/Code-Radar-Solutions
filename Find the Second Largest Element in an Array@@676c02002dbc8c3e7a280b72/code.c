@@ -14,6 +14,6 @@ int main(){
         else{
             k=arr[i+1];
         }
-        printf("%d",k);
+        printf("%d ",k);
     }
 }
