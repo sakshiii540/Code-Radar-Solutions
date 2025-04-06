@@ -11,6 +11,7 @@ int main(){
         if (arr[i+1]>arr[i]){
             j=arr[i+1];
         }
+        else j=arr[i];
 }
 printf("%d",j);
 }
