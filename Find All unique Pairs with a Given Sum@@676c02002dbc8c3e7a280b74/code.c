@@ -17,7 +17,7 @@ int main(){
             }
             else{
               printf("%d %d\n",arr[i] , arr[j]);
-              break;
+              return 0;
             }
             
         }
