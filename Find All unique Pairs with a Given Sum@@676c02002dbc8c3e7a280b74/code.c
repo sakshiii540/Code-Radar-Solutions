@@ -13,6 +13,7 @@ int main(){
         for (j=1;j<n;j++){
         if (arr[i]+arr[j]==t){
             printf("%d %d\n",arr[i] , arr[j]);
+            break;
         }
     }
 }
