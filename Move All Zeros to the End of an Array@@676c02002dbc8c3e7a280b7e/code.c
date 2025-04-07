@@ -16,7 +16,7 @@ int main(){
     if (arr[i]==0){
     l++;
 
-    for (i=0;i<l-1;i++){
+    for (i=0;i<l;i++){
                 printf("0 ");
             }
      }
