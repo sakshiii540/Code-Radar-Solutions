@@ -15,6 +15,7 @@ int main(){
     for (i=0;i<n;i++){
     if (arr[i]==0){
     l++;
+    }
 
     for (i=0;i<l;i++){
                 printf("0 ");
@@ -22,7 +23,7 @@ int main(){
      }
         
             
-        }
+        
        
      }
 
