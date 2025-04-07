@@ -24,6 +24,6 @@ int main(){
     //         if (arr[i]-arr[j]<)
     //     }
     printf("%d",max);
-     printf("%d",min);
+    printf("%d",min);
      
      }
