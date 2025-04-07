@@ -15,7 +15,7 @@ int main(){
             c++;
             }
         }
-        for (k=n-1;k>n;k--){
+        for (k=n-1;k>0;k--){
         if (c==k){
             printf("%d",arr[i]);
         }
