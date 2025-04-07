@@ -15,7 +15,9 @@ int main(){
         
         
     }
+    
     printf("%d",arr[c]);
+    return 0;
     for(i=0;i<n;i++){
         if (n%2==0){
             j=n/2;
@@ -24,4 +26,5 @@ int main(){
 }
     }
     printf("%d",l);
+
 }
