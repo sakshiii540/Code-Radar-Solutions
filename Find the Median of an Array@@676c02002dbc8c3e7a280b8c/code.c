@@ -25,6 +25,8 @@ int main(){
             l=k/2;
 }
     }
-    printf("%d",l);
+    printf("%d",j);
+    printf("\n%d",arr[j-1]);
+    printf("\n%d",l);
 
 }
