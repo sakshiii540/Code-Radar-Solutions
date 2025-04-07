@@ -9,6 +9,6 @@ int main(){
     }
     scanf("%d",&k);
     for (i=k+1;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
