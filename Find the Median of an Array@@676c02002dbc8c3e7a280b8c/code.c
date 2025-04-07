@@ -12,21 +12,13 @@ int main(){
         if (n%2==1){
             c=n/2 ;
         }
-        
-        
+        else{j=n/2;
+        k=arr[j-1] +arr[j] ;
+        c=k/2;
+        }
     }
-    
     printf("%d",arr[c]);
     
-    for(i=0;i<n;i++){
-        if (n%2==0){
-            j=n/2;
-            k=arr[j-1] +arr[j] ;
-            l=k/2;
-}
-    }
-    printf("%d",j);
-    printf("\n%d",arr[j-1]);
-    printf("\n%d",l);
+    
 
 }
