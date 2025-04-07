@@ -11,11 +11,18 @@ int main(){
         if (arr[i]!=0){
             printf("%d ",arr[i]);
         }
-        else{
-            l++;
-            for (i=0;i<l;i++){
+     }
+    for (i=0;i<n;i++){
+    if (arr[i]==0){
+    l++;
+    
+    for (i=0;i<l;i++){
                 printf("0 ");
             }
-        }
      }
-}
+        
+            
+        }
+       
+     }
+
