@@ -12,6 +12,9 @@ int main(){
         if (n%2==1){
             c=n/2 ;
         }
+        else {
+            c=((n/2)+ (n/2 +1))/2
+        }
         
     }
     printf("%d",arr[c]);
