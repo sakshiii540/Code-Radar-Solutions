@@ -10,8 +10,9 @@ int main(){
     }
     for(i=0;i<n;i++){
         if (n%2==1){
-            c=n/2 +1;
+            c=n/2 ;
         }
-        printf("%d",c);
+        
     }
+    printf("%d",arr[c]);
 }
