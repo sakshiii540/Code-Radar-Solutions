@@ -13,9 +13,10 @@ int main(){
         for (j=i+1;j<n;j++){
         if(arr[i]>=arr[j]){
             c++;
+        
+        }
         if (c==n-1){
             printf("%d",arr[i]);
-        }
         }
         }
 }
