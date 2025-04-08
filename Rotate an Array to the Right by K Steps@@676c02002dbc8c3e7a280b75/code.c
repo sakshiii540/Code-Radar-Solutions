@@ -18,10 +18,11 @@ int main(){
         }
     }
     else{
-    for (i=k+1;i<n;i++){
+        
+    for (i=n-k;i<n;i++){
         printf("%d ",arr[i]);
     }
-    for (i=0;i<k+1;i++){
+    for (i=0;i<n-k;i++){
         printf("%d ",arr[i]);
     }
 }
