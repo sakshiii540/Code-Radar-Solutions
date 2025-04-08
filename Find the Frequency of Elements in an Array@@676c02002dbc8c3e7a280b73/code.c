@@ -14,7 +14,7 @@ int main(){
             }
             
         }
-        printf("%d ",l);
+        printf("%d ",l+1);
         l=0;
     }
     
