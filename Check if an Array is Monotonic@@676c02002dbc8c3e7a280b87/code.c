@@ -17,10 +17,10 @@ int main(){
         
 
 }
-if (l==4){
+if (l==n-1){
     printf("YES");
 }
-else if(k==4){
+else if(k==n-1){
     printf("YES");
 }
 else{
