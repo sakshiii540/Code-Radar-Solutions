@@ -18,7 +18,7 @@ int main(){
                 k=arr[i];
             }
             else{
-                k=
+                
             }
         }
         
