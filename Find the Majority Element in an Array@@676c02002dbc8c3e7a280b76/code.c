@@ -18,6 +18,6 @@ int main(){
         if (l>m){
             m=l;
         }
-        printf("%d",m);
+        printf("%d ",m);
     }
 }
