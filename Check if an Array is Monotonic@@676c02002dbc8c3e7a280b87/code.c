@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int n,i,j,k,l=0;
+    int n,i,j,k=0,l=0;
     scanf("%d",&n);
     int arr[n];
     for (i=0;i<n;i++){
@@ -11,8 +11,20 @@ int main(){
         if (arr[i+1]>=arr[i]){
             l++;
         }
+        else if (arr[i]<=arr[i+1]){
+            k++;
+        }
         
 
 }
-printf("%d",l);
+if (l==4){
+    printf("YES");
+}
+else if(k==4){
+    printf("YES");
+}
+else{
+    printf("NO");
+}
+
 }
