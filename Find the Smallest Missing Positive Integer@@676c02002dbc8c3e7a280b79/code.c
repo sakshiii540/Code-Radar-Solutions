@@ -2,7 +2,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,j,k,n,max=0,l;
+    int i,j,k,x,n,max=0,l;
     scanf("%d",&n);
     int arr[n];
     int arr[x];
