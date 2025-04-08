@@ -14,7 +14,7 @@ int main(){
             }
         }
     }
-    printf("%d\n",l);
+    if (l>4){
      for (i=0;i<n;i++){
         for (j=1;j<n;j++){
             
@@ -28,4 +28,5 @@ int main(){
         }
 
      }
+}
 }
