@@ -14,9 +14,9 @@ int main(){
             }
             
         }
-        if (l>1){
+        
         printf("%d ",l+1);
-        }
+        
         l=0;
 
     }
