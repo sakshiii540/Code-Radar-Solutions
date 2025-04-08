@@ -18,10 +18,10 @@ int main(){
         }
     }
     
-    // for (i=k+1;i<n;i++){
-    //     printf("%d ",arr[i]);
-    // }
-    // for (i=0;i<k+1;i++){
-    //     printf("%d ",arr[i]);
-    // }
+    for (i=k+1;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    for (i=0;i<k+1;i++){
+        printf("%d ",arr[i]);
+    }
 }
