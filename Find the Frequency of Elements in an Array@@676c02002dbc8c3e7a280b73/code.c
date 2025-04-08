@@ -7,26 +7,14 @@ int main(){
     for (i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d ",arr[0]);
     for (i=0;i<n;i++){
-        if (arr[0]==arr[i+1]){
-            m++;
-            
+        for (j=i+1;j<n;j++){
+            if (arr[i]==arr[j]){
+                l++;
+            }
+            printf("%d",l);
         }
-        else{
-            k=arr[i+1];
-            break;
-            
-
-        }
-        
-        
-        }
-        printf("%d",m);
-        printf("\n%d ",k);
-        printf("%d",l);
-       
-        
     }
-
-
+    
+    
+}
