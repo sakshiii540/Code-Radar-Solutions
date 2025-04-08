@@ -16,6 +16,7 @@ int main(){
         }
 
     }
+    printf("%d",k);
     if (k==2){
         printf("%d",arr[i]);
     }
