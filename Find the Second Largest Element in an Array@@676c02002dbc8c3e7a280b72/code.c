@@ -10,13 +10,7 @@ int main(){
     for (i=0;i<n;i++){
         if (arr[i]>max){
             max=arr[i];
-            sl=arr[i-1];
-
         }
-
-       
-        
     }
-    
-    printf("%d ",sl);
+    printf("%d",max);
 }
