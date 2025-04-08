@@ -15,9 +15,10 @@ int main(){
             k++;
             
         } 
-        printf("%d\n",k);
+       
         
         }
+         printf("%d\n",k);
 
     }
     }
