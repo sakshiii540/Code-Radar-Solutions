@@ -14,7 +14,7 @@ int main(){
             }
         }
     }
-    printf("%d",l);
+    printf("%d\n",l);
      for (i=0;i<n;i++){
         for (j=1;j<n;j++){
             
