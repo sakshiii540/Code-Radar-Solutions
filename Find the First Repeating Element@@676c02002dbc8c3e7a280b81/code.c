@@ -10,26 +10,26 @@ int main(){
     for (i=0;i<n;i++){
         for (j=1;j<n;j++){
             if (arr[i]==arr[j]){
-                l++;
+                printf("%d",arr[i]);
+                return 0;
             }
         }
     }
-    if (l>n-1){
-     for (i=0;i<n;i++){
-        for (j=1;j<n;j++){
+//     if (l>n-1){
+//      for (i=0;i<n;i++){
+//         for (j=1;j<n;j++){
             
-            if (arr[i]==arr[j]){
-                if (arr[i+1]!=arr[j]){
-                printf("%d",arr[i]);
-                return 0;
-                }
-            }
+//             if (arr[i]==arr[j]){
+//                 if (arr[i+1]!=arr[j]){
+//                 printf("%d",arr[i]);
+//                 return 0;
+//                 }
+//             }
             
-        }
+//         }
 
-     }
-}
-else{
+//      }
+// }
     printf("-1");
-}
+
 }
