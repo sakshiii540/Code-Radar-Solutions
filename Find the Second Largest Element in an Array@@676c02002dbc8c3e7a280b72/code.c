@@ -14,7 +14,7 @@ int main(){
     }
     for (i=0;i<n;i++){
         if (arr[i]>l){
-            if (l!=max){
+            if (arr[i]!=max){
                 l=arr[i];
             }
         }
