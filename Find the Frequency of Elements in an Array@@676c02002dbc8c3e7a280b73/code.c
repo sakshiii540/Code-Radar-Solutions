@@ -14,10 +14,9 @@ int main(){
             }
             
         }
-        if (l>1){
+        
         printf("%d ",l+1);
-        break;
-        }
+        
         l=0;
         
 
