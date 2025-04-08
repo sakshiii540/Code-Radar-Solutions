@@ -19,5 +19,6 @@ int main(){
             m=l;
         }
         printf("%d ",m);
+        l=0;
     }
 }
