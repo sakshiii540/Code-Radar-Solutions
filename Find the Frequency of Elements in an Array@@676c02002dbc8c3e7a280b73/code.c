@@ -15,7 +15,7 @@ int main(){
             
         }
         
-        printf("%d \n",l+1);
+        printf("%d %d \n",arr[i],l+1);
         
         l=0;
         
