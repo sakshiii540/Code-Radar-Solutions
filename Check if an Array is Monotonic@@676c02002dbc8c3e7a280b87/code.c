@@ -11,7 +11,8 @@ int main(){
         if (arr[i+1]>=arr[i]){
             l++;
         }
-        printf("%d",l);
+        
 
 }
+printf("%d",l);
 }
