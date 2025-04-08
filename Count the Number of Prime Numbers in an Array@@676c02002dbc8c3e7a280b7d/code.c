@@ -14,8 +14,7 @@ int main(){
         if (arr[i]%j==0){
             k++;
             printf("%d\n",k);
-            if (k==2){
-            printf("%d ",arr[i]);
+            
             
         } 
         
