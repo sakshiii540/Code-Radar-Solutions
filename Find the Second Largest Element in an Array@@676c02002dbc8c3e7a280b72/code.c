@@ -12,5 +12,13 @@ int main(){
             max=arr[i];
         }
     }
-    printf("%d",max);
+    for (i=0;i<n;i++){
+        if (arr[i]>l){
+            if (l!=max){
+                l=arr[i];
+            }
+        }
+    }
+    printf("%d",l);
+    
 }
