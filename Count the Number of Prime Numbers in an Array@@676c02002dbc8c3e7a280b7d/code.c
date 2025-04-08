@@ -20,8 +20,9 @@ int main(){
         }
         
         if(k==2){
-           printf("%d\n",arr[i]);
+           p++;
         }
+        printf("%d",p);
         k=0;
     }
 
