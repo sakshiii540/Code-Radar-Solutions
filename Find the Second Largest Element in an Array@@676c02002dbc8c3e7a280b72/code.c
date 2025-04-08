@@ -8,17 +8,17 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (i=0;i<n;i++){
-        if (arr[i]>max){
+        if (arr[i]>max ){
             max=arr[i];
         }
     }
     for (i=0;i<n;i++){
-        if (arr[i]>l){
+        if (arr[i]>sl){
             if (arr[i]!=max){
-                l=arr[i];
+                sl=arr[i];
             }
         }
     }
-    printf("%d",l);
+    printf("%d",sl);
     
 }
