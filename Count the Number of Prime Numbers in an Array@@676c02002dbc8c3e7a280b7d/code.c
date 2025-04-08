@@ -22,9 +22,10 @@ int main(){
         if(k==2){
            p++;
         }
-        printf("%d",p);
+       
         k=0;
     }
+     printf("%d",p);
 
     }
 
