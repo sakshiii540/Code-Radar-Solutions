@@ -13,11 +13,9 @@ int main(){
         for (j=1;j<=arr[i];j++){
         if (arr[i]%j==0){
             k++;
-            break;
-            printf("%d\n",k);
-            
             
         } 
+        printf("%d",k);
         
         }
 
