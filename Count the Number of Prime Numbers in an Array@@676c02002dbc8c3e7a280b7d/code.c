@@ -17,7 +17,7 @@ int main(){
         //     if (k==2){
         //     printf("%d ",arr[i]);
         // } 
-        printf("%d\n",i);
+        printf("%d\n",arr[i]);
         }
 
     }
