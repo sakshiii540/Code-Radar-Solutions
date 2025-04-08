@@ -19,9 +19,12 @@ int main(){
         
         }
         printf("%d\n",k);
-        break;
-
+        if(k==2){
+            p++;
+        }
+        k=0;
     }
+
     }
 
    
