@@ -19,7 +19,7 @@ int main(){
         
         }
         printf("%d\n",k);
-        return 0;
+        break;
 
     }
     }
