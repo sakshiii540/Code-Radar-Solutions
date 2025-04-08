@@ -13,7 +13,8 @@ int main(){
         for (j=0;j<=i;j++){
             sum=sum+arr[j];
 
-        printf("%d ",sum);
+        
     }
+    printf("%d ",sum);
 }
 }
