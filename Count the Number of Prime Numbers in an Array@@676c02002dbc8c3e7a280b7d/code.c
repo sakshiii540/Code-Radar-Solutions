@@ -18,9 +18,9 @@ int main(){
        
         
         }
-        printf("%d\n",k);
+        
         if(k==2){
-            p++;
+           printf("%d\n",arr[i]);
         }
         k=0;
     }
