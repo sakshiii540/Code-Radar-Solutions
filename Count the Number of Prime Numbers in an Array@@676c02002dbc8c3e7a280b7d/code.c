@@ -13,6 +13,7 @@ int main(){
         for (j=1;j<=arr[i];j++){
         if (arr[i]%j==0){
             k++;
+            printf("%d",k);
             if (k==2){
             printf("%d ",arr[i]);
         }
