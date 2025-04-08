@@ -11,7 +11,10 @@ int main(){
     if (k>n){
         m=k-n;
         for (i=m+1;i<n;i++){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
+        }
+        for (i=0;i<m+1;i++){
+            printf("%d ",arr[i]);
         }
     }
     
