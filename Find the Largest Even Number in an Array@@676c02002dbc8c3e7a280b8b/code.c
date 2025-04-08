@@ -18,9 +18,9 @@ int main(){
                 k=arr[i];
             }
             else{
-                
-            }
-        }
+                 if (arr[i]>arr[i+1]){
+                    k=arr[i];
+                 }
         
 
     }
