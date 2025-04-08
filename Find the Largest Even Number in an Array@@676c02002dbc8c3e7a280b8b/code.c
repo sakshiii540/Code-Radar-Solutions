@@ -21,11 +21,12 @@ int main(){
         
 
     }
-    if (l==n){
+    
+}
+if (l==n){
         printf("-1");
     }
     else{
         printf("%d",k);
     }
-}
     }
