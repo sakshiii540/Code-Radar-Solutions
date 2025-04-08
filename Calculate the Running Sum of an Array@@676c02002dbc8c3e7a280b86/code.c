@@ -15,7 +15,9 @@ int main(){
 
         
     }
+    printf("%d ",sum);
+    sum=0;
    
 }
- printf("%d ",sum);
+ 
 }
