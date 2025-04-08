@@ -2,15 +2,17 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,j,k,n,min,l;
+    int i,j,k,n,sum=0,l;
     scanf("%d",&n);
     int arr[n];
     for (i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d ",arr[0]);
+    
     for (i=0;i<n;i++){
-        l=arr[i];
-        printf("%d ",l);
+        for (j=0;j<=i;j++){
+            sum=sum+arr[j];
+
+        printf("%d ",sum);
     }
 }
