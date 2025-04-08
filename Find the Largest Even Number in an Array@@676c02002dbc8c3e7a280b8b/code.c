@@ -9,5 +9,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (i=0;i<n;i++){
+        if (arr[i]%2==1){
+            l++;
+        }
+        
+
+    }
+    if (l==n){
+        printf("-1");
     }
 }
