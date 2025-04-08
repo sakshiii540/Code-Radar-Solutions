@@ -9,13 +9,21 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for (i=0;i<n;i++){
-        if (arr[i]%2==1){
+        if (arr[i]%2!=0){
             l++;
+        }
+        else {
+            if (arr[i]>k){
+                k=arr[i];
+            }
         }
         
 
     }
     if (l==n){
         printf("-1");
+    }
+    else{
+        printf("%d",k);
     }
 }
