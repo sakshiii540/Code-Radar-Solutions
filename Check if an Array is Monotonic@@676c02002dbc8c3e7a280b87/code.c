@@ -47,6 +47,7 @@ int main() {
             j++;
         }
     }
+    printf("%d",j);
     
     
         if (k == n - 1)
