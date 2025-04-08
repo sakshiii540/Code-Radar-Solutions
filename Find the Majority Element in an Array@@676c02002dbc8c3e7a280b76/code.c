@@ -18,7 +18,7 @@ int main(){
         if (l>m){
             m=l;
         }
-        printf("%d ",m+1);
+        printf("%d ",m);
         
     }
 }
