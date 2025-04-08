@@ -18,7 +18,8 @@ int main(){
        
         
         }
-         printf("%d\n",k);
+        printf("%d\n",k);
+        return 0;
 
     }
     }
