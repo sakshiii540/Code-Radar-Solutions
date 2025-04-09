@@ -19,6 +19,7 @@ int main(){
         // if (l==n-1){
         //     m++;
         printf("%d",l);
+        l=0;
         }
         // printf("%d ",m);
 
