@@ -19,7 +19,8 @@ int main(){
                 k=arr[0];
         }
         
-        printf("%d ",max);
+       
     }
+     printf("%d ",max);
 }
 }
