@@ -21,8 +21,9 @@ int main(){
         // printf("%d ",l);
         l=0;
         }
-        printf("%d ",m+1);
+        
 
         // l=0;
     }
+    printf("%d ",m+1);
 }
