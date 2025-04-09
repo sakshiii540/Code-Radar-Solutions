@@ -16,8 +16,8 @@ int main(){
             m++;
         }
     }
-    printf("%d\n",l);
-     printf("%d",m);
+    // printf("%d\n",l);
+    //  printf("%d",m);
     if (m==l){
         printf("YES");
     }
