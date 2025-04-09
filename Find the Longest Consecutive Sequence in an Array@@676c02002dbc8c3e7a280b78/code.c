@@ -16,12 +16,12 @@ int main(){
                 l++;
             }
         }
-        // if (l==n-1){
-        //     m++;
-        printf("%d ",l);
+        if (l==n-1){
+            m++;
+        // printf("%d ",l);
         l=0;
         }
-        // printf("%d ",m);
+        printf("%d ",m+1);
 
         // l=0;
     }
