@@ -16,7 +16,7 @@ int main(){
     }
     int arra[x];
     for (x=0;x<n-1;x++){
-        arra[x]=l;
+        arra[x]=arr[i+1];
         printf("%d ",arra[x]);
     }
     
