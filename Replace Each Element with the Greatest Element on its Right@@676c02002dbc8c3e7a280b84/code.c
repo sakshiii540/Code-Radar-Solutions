@@ -16,7 +16,7 @@ int main(){
     //     printf("%d ",arra[x]);
     // }
     
-    printf(%d,arr[i]);
+    printf("%d",arr[i]);
 
 
 }
