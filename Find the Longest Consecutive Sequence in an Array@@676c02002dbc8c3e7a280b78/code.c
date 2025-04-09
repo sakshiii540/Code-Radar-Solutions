@@ -3,7 +3,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int i,j,k,n,max=0,l=0;
+    int i,j,k,n,m=0,l=0;
     scanf("%d",&n);
     int arr[n];
     for (i=0;i<n;i++){
@@ -16,7 +16,11 @@ int main(){
                 l++;
             }
         }
-        printf("%d ",l);
+        if (l==n-1){
+            m++;
+        }
+        printf("%d ",m);
+
         l=0;
     }
 }
