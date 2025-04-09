@@ -15,9 +15,10 @@ int main(){
                 max=arr[j];
             }
             else{
-                printf("%d",arr[0]);
-            }
+                
+                k=arr[0];
         }
+        printf("%d",k);
         printf("%d ",max);
     }
 
