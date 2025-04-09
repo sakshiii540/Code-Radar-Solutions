@@ -1,28 +1,35 @@
-// Your code here...
-// Your code here...
-// Your code here...
 #include <stdio.h>
-int main(){
-    int i,j,k,x,n,m=0,l=0;
-    scanf("%d",&n);
+
+int isPalindrome(int num) {
+    int original = num;
+    int reversed = 0;
+
+    while (num > 0) {
+        int digit = num % 10;
+        reversed = reversed * 10 + digit;
+        num = num / 10;
+    }
+
+    return original == reversed;
+}
+
+int main() {
+    int n, i, count = 0;
+    // printf("Enter number of elements: ");
+    scanf("%d", &n);
+
     int arr[n];
-    for (i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    // printf("Enter array elements:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for (i=0;i<n-1;i++){
-        if (arr[i+1]==arr[i]+1 ){
-            l++;
+
+    for (i = 0; i < n; i++) {
+        if (isPalindrome(arr[i])) {
+            count++;
         }
-        if (arr[i+1]==arr[i]-1 ){
-            m++;
-        }
     }
-    // printf("%d\n",l);
-    //  printf("%d",m);
-    if (m==l){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
+
+    printf("%d\n", count);
+    return 0;
 }
