@@ -16,7 +16,9 @@ int main(){
         }
         if (c==n-i-1){
             printf("%d ",arr[i]);
+
         }
+        c=0;
     }
        
     
