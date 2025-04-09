@@ -18,7 +18,7 @@ int main(){
     }
     printf("%d\n",l);
      printf("%d",m);
-    if (m==l-1){
+    if (m==l){
         printf("YES");
     }
     else{
