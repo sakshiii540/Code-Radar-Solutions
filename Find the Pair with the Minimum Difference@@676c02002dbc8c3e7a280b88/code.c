@@ -25,7 +25,6 @@ int main(){
     //     for (j=1;j<n;j++){
     //         if (arr[i]-arr[j]<)
     //     }
-    printf("%d",max);
-    printf("%d",min);
+    
      
      }
