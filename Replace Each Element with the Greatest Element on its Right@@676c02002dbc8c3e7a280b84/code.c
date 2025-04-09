@@ -14,6 +14,9 @@ int main(){
             if (arr[j]>arr[i+1]){
                 max=arr[j];
             }
+            else{
+                printf("%d",arr[0]);
+            }
         }
         printf("%d ",max);
     }
