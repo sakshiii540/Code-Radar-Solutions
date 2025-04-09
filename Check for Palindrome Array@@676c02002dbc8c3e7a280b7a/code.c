@@ -16,6 +16,8 @@ int main(){
             m++;
         }
     }
+    printf("%d",l);
+     printf("%d",m);
     if (m==l-1){
         printf("YES");
     }
