@@ -12,8 +12,7 @@ int main(){
         if (arr[i+1]==arr[i]+1 ){
             l++;
 
-        };
-        printf("%d ",l);
+        }
     }
-
+    printf("%d ",l);
 }
