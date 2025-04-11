@@ -25,6 +25,8 @@ int main() {
         }
         
     }
+    printf("%d",l);
+    printf("%d",m);
     if (m==k){
         if ((l- (m*2))==n){
             printf("Yes");
