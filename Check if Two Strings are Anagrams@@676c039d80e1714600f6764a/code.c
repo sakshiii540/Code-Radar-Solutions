@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-#include <string.h>
 int main() {
     int n,i,j,l=0;
     char ch[100],bu[100];
