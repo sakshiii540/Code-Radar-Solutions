@@ -41,7 +41,7 @@ int main() {
     
         {
             printf("No");
-            return 0;
+            
             }
             printf("No");
             return 0;
