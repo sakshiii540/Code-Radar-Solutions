@@ -2,7 +2,7 @@
 int main(){
     int i,k=0;
     char name[100];
-    scanf("%s",name);
+    scanf("%[^\n]s",str);
     for (i=0; name[i]!='\0'; i++){
         k++;
     }
