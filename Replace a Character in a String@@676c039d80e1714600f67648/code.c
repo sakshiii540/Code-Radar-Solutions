@@ -6,9 +6,10 @@ int main(){
     scanf("%[^\n]s",name);
     getchar(); 
     scanf("%c\n",&n);
+    getchar();
     scanf("%c",ch);
     for (i=0;name[i]!='\0';i++){
-            if (name[i]=='n'){
+            if (name[i]==n){
                 printf("%c",ch);  
             }
             else{
