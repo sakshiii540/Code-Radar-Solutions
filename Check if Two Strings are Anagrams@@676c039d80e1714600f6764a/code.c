@@ -40,7 +40,7 @@ int main() {
     }
     else{
         printf("No");
-        return 0;
+        
     }
     printf("No");
         
