@@ -35,6 +35,7 @@ int main() {
     if (m==k){
         if ((n+ (m*2))==l){
             printf("Yes");
+            return 0;
         }
     }
     else{
