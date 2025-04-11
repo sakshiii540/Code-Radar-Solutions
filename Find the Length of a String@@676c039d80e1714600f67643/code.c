@@ -5,7 +5,7 @@ int main(){
     char name[100];
     scanf("%s",name);
     for (i=0;i<n;i++){
-        if (name[i]!='0'){
+        if (name[i]!='\0'){
             k++;
         }
     }
