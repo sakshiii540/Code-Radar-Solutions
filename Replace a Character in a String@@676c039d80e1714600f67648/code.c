@@ -5,8 +5,7 @@ int main(){
     char name[100];
     scanf("%[^\n]s",name);
     getchar(); 
-    scanf("%c",&n);
-    getchar();
+    scanf("%c\n",&n);
     scanf("%c",&ch);
     for (i=0;name[i]!='\0';i++){
             if (name[i]==n){
