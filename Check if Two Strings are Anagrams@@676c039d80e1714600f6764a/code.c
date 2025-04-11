@@ -12,10 +12,12 @@ int main() {
                 k++;
             }
         }
+     
         for (j=i+1;j<n;j++){
             if (bu[i]==bu[j]){
                 m++;
             }
+     }
      }
     for(i=0;i<n;i++){
         for (j=0;j<n;j++){
@@ -37,5 +39,4 @@ int main() {
     else{
         printf("No");
     }
-}
 }
