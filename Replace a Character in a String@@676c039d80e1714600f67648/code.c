@@ -14,5 +14,5 @@ for (i=0;name[i]!='\0';i++){
             name[i]=ch;
         }
 }
-printf("%d",name[i]);
+printf("%s",name);
 }
