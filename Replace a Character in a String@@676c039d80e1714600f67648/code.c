@@ -8,7 +8,7 @@ int main(){
     scanf("%c\n",&n);
     scanf("%c",ch);
     for (i=0;name[i]!='\0';i++){
-            if (name[i]=='l'){
+            if (name[i]==n){
                 printf("%c",ch);  
             }
             else{
