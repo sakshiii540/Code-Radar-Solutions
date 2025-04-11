@@ -13,7 +13,8 @@ int main(){
         else{
             l++;
         }
+        printf("%d",l);
 
     }
-    printf("%d",l);
+    
 }
