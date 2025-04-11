@@ -31,7 +31,7 @@ int main() {
     printf("%d\n",m);
     printf("%d\n",n);
     printf("%d\n",k);
-    printf("%d",n+ (m*2))
+    printf("%d",n+ (m*2));
     if (m==k){
         if ((n+ (m*2))==l){
             printf("Yes");
