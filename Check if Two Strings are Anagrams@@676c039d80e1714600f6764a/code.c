@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    int n,i,j,l=0,k=0;
+    int n,i,j,l=0,k=0,m=0;
     char ch[100],bu[100];
     scanf("%s\n",ch);
     n=strlen(ch);
@@ -12,6 +12,10 @@ int main() {
                 k++;
             }
         }
+        for (j=i+1;j<n;j++){
+            if (bu[i]==bu[j]){
+                m++;
+            }
      }
     for(i=0;i<n;i++){
         for (j=0;j<n;j++){
@@ -21,7 +25,13 @@ int main() {
         }
         
     }
-    printf("%d\n",k);
-    printf("%d",l);
+    if (m==k){
+        if ((l- (m*2))==n){
+            printf("YES");
+        }
+    }
+    else{
+        printf("NO");
+    }
 }
 
