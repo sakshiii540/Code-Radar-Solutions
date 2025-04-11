@@ -10,9 +10,12 @@ getchar();
 scanf("%c\n",&n);
 scanf("%c",ch);
 for (i=0;name[i]!='\0';i++){
-        if (name[i]==n){
-            name[i]=ch;
+        if (name[i]=='l'){
+            printf("%c",ch);  
+        }
+        else{
+            printf("%c",name[i]);
         }
 }
-printf("%s",name);
+
 }
