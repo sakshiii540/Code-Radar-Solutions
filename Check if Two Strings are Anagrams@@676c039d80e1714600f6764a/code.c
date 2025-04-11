@@ -27,11 +27,11 @@ int main() {
     }
     if (m==k){
         if ((l- (m*2))==n){
-            printf("YES");
+            printf("Yes");
         }
     }
     else{
-        printf("NO");
+        printf("No");
     }
 }
 }
