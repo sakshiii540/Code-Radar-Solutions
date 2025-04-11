@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    int i,l=0;
+    int i,n,l=0;
     char ch[100];
+    n=strlen(ch);
     scanf("%[^\n]s",ch);
     for (i=0;i<n;i++){
         if (ch[i]==' '){
