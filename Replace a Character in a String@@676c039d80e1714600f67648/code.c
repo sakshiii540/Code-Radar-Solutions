@@ -10,7 +10,7 @@ getchar();
 scanf("%c\n",&n);
 scanf("%c",ch);
 for (i=0;name[i]!='\0';i++){
-        (if name[i]==n){
+        if (name[i]==n){
             name[i]=ch;
         }
 }
