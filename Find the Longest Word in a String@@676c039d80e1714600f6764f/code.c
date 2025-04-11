@@ -6,6 +6,7 @@ int main(){
     char ch[100];
     n=strlen(ch);
     scanf("%[^\n]s",ch);
+    getchar();
     for (i=0;i<n;i++){
         if (ch[i]==' '){
             break;
