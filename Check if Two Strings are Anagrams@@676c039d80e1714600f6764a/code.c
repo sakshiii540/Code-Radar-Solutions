@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 int main() {
     int n,i,j,l=0;
+    n=strlen();
     char ch[100],bu[100];
     scanf("%s\n",ch);
-    scanf("%s\n",bu);
+    scanf("%s",bu);
     for(i=0;i<n;i++){
         for (j=0;j<n;j++){
             if (ch[i]==bu[j]){
