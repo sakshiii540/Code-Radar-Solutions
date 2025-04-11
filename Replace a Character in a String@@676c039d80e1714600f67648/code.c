@@ -7,7 +7,7 @@ int main(){
     getchar(); 
     scanf("%c",&n);
     getchar();
-    scanf("%c",ch);
+    scanf("%c",&ch);
     for (i=0;name[i]!='\0';i++){
             if (name[i]==n){
                 printf("%c",ch);  
