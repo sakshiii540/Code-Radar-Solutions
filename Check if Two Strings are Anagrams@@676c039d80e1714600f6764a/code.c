@@ -12,7 +12,8 @@ int main() {
                 l++;
             }
         }
-        printf("%d",l);
+        
     }
+    printf("%d",l);
 }
 
