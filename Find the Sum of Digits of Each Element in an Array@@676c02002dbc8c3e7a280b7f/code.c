@@ -8,6 +8,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
      for (i=0;i<n;i++){
-        printf("%d\n",arr[i]);
+        if (arr[i]/10>0){
+            printf("%d\n",arr[i]/10)
+            };
      }
 }
